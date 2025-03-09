@@ -247,6 +247,11 @@ has_image! {
         #[cfg(feature = "image_0-24")]
         pub use with_opencv_image_0_24::*;
 
+        #[cfg(feature = "image_0-25")]
+        mod with_opencv_image_0_25;
+        #[cfg(feature = "image_0-25")]
+        pub use with_opencv_image_0_25::*;
+
     }
 }
 
